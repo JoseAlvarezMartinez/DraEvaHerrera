@@ -232,6 +232,9 @@ nav ul a:hover {
     opacity: 0;
     animation: fade 1s .9s forwards
 }
+.cta .btn{
+    margin-bottom: 2rem;
+}
 
 @keyframes rise {
     to {
@@ -395,7 +398,6 @@ section {
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     align-items: end;
-    margin-bottom: 56px
 }
 
 .head p {
