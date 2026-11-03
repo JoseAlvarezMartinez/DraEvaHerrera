@@ -1,4 +1,73 @@
-:root {
+* {
+    font-family: 'Fraunces', Georgia, serif !important;
+}
+body{
+    background-color: #f7f9f9;
+}
+@keyframes arrowanimation {
+  0% {
+    -webkit-transform: translateY(0);
+    opacity: 0.8;
+  }
+  100% {
+    -webkit-transform: translateY(1em);
+    opacity: 1;
+  }
+}
+.tienda-online-arrow {
+  animation: arrowanimation 0.55s infinite alternate ease-in-out;
+}
+/* header */
+.indexHeader{
+    border-bottom: 1px solid #5f707656;
+    height: 90vh;
+    position: relative;
+}
+.navbar-brand {
+    font-size: 1.05rem;
+}
+.navbar{
+    border-bottom: 1px solid #5f707656;
+}
+.nav-link {
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.headerContenedorInferior{
+    padding: 0 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 95vh;
+}
+.headerIndexH2 {
+    font-weight: 300;
+    font-size: 2rem;
+    letter-spacing: -.02rem;
+    line-height: 1.12;
+}
+.headerContenedorInferiorParrafo{
+    color: #5f7076;
+    margin: 1rem 0;
+    font-weight: 300;
+}
+.headerContenedorInferiorCTA{
+    color: #fff;
+    background-color: #000;
+    padding: 1rem 2rem;
+    border-radius:3rem;
+    text-decoration: none;
+    font-weight: 300;
+    width: fit-content;
+}
+.flecha-container{
+        position: absolute;
+    bottom: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* :root {
     --photo: url("assets/dra-herrera.jpg");
     --bg: #f7f9f9;
     --surface: #fff;
@@ -95,7 +164,7 @@ p {
     color: var(--muted)
 }
 
-/* nav */
+
 header {
     position: sticky;
     top: env(safe-area-inset-top, 0px);
@@ -181,7 +250,7 @@ nav ul a:hover {
     }
 }
 
-/* hero */
+
 .hero {
     padding: clamp(56px, 10vw, 120px) 0 clamp(64px, 9vw, 110px)
 }
@@ -385,7 +454,7 @@ nav ul a:hover {
     }
 }
 
-/* sections */
+
 section {
     padding: clamp(64px, 9vw, 110px) 0;
     border-top: 1px solid var(--line);
@@ -763,4 +832,4 @@ footer .wrap {
     .call {
         opacity: 1
     }
-}
+} */
